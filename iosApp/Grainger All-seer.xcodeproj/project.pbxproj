@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD62BE881E61F60400A3756E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD62BE871E61F60400A3756E /* AppDelegate.swift */; };
+		CD62BE8A1E61F60400A3756E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD62BE891E61F60400A3756E /* ViewController.swift */; };
+		CD62BE8D1E61F60400A3756E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD62BE8B1E61F60400A3756E /* Main.storyboard */; };
+		CD62BE8F1E61F60400A3756E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD62BE8E1E61F60400A3756E /* Assets.xcassets */; };
+		CD62BE921E61F60400A3756E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD62BE901E61F60400A3756E /* LaunchScreen.storyboard */; };
+		CD62BE9A1E62068700A3756E /* ImageChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD62BE991E62068700A3756E /* ImageChooser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD62BE841E61F60400A3756E /* Grainger All-seer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grainger All-seer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD62BE871E61F60400A3756E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD62BE891E61F60400A3756E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD62BE8C1E61F60400A3756E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD62BE8E1E61F60400A3756E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD62BE911E61F60400A3756E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD62BE931E61F60400A3756E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD62BE991E62068700A3756E /* ImageChooser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageChooser.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD62BE811E61F60300A3756E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD62BE7B1E61F60300A3756E = {
+			isa = PBXGroup;
+			children = (
+				CD62BE861E61F60400A3756E /* Grainger All-seer */,
+				CD62BE851E61F60400A3756E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD62BE851E61F60400A3756E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD62BE841E61F60400A3756E /* Grainger All-seer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD62BE861E61F60400A3756E /* Grainger All-seer */ = {
+			isa = PBXGroup;
+			children = (
+				CD62BE871E61F60400A3756E /* AppDelegate.swift */,
+				CD62BE891E61F60400A3756E /* ViewController.swift */,
+				CD62BE8B1E61F60400A3756E /* Main.storyboard */,
+				CD62BE8E1E61F60400A3756E /* Assets.xcassets */,
+				CD62BE901E61F60400A3756E /* LaunchScreen.storyboard */,
+				CD62BE931E61F60400A3756E /* Info.plist */,
+				CD62BE991E62068700A3756E /* ImageChooser.swift */,
+			);
+			path = "Grainger All-seer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD62BE831E61F60300A3756E /* Grainger All-seer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD62BE961E61F60400A3756E /* Build configuration list for PBXNativeTarget "Grainger All-seer" */;
+			buildPhases = (
+				CD62BE801E61F60300A3756E /* Sources */,
+				CD62BE811E61F60300A3756E /* Frameworks */,
+				CD62BE821E61F60300A3756E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Grainger All-seer";
+			productName = "Grainger All-seer";
+			productReference = CD62BE841E61F60400A3756E /* Grainger All-seer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD62BE7C1E61F60300A3756E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = HoldenDou;
+				TargetAttributes = {
+					CD62BE831E61F60300A3756E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z53NMC9G2L;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CD62BE7F1E61F60300A3756E /* Build configuration list for PBXProject "Grainger All-seer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD62BE7B1E61F60300A3756E;
+			productRefGroup = CD62BE851E61F60400A3756E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD62BE831E61F60300A3756E /* Grainger All-seer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD62BE821E61F60300A3756E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD62BE921E61F60400A3756E /* LaunchScreen.storyboard in Resources */,
+				CD62BE8F1E61F60400A3756E /* Assets.xcassets in Resources */,
+				CD62BE8D1E61F60400A3756E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD62BE801E61F60300A3756E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD62BE8A1E61F60400A3756E /* ViewController.swift in Sources */,
+				CD62BE881E61F60400A3756E /* AppDelegate.swift in Sources */,
+				CD62BE9A1E62068700A3756E /* ImageChooser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD62BE8B1E61F60400A3756E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD62BE8C1E61F60400A3756E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD62BE901E61F60400A3756E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD62BE911E61F60400A3756E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD62BE941E61F60400A3756E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD62BE951E61F60400A3756E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD62BE971E61F60400A3756E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z53NMC9G2L;
+				INFOPLIST_FILE = "Grainger All-seer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dou.Grainger-All-seer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CD62BE981E61F60400A3756E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z53NMC9G2L;
+				INFOPLIST_FILE = "Grainger All-seer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Dou.Grainger-All-seer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD62BE7F1E61F60300A3756E /* Build configuration list for PBXProject "Grainger All-seer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD62BE941E61F60400A3756E /* Debug */,
+				CD62BE951E61F60400A3756E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD62BE961E61F60400A3756E /* Build configuration list for PBXNativeTarget "Grainger All-seer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD62BE971E61F60400A3756E /* Debug */,
+				CD62BE981E61F60400A3756E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD62BE7C1E61F60300A3756E /* Project object */;
+}
