@@ -10,3 +10,10 @@ Whenever a new photo is uploaded to our server, our well-trained neural network 
 
 ##Results
 We are running a relatively small sample of only 143. However, its in-sample correct rate could be as high as 99%, while that of out-of-sample data could be above 70%. That's surprising enough since if it simply takes a wild guess, the probability is one out of sixteen.
+
+##Usages 
+Deploy the server according to the myServer folder.
+
+The .m scripts could be run in both matlab and octave. Its prototype comes from Stanford Machine Learning on Coursera.
+
+Install the iOS App on your phone.
